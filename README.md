@@ -8,7 +8,7 @@ c03lh1n0 is a powerful command-line interface (CLI) tool designed to automate th
 - **Multi-threading**: Scans run in parallel for faster results.
 - **Interactive CLI**: Choose specific tools to run or scan using all tools.
 - **Comprehensive Reporting**: Generates a `.docx` report organized by severity levels (High, Medium, Low).
-- **ANSI Art Banner**: Displays a NexSysHub banner at startup.
+
   
 ### Tools Used:
 1. **Nmap**: Network mapping and service version detection.
