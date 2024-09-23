@@ -29,7 +29,17 @@ c03lh1n0 is a powerful command-line interface (CLI) tool designed to automate th
   - SQLMap
   - OWASP Zap
   - Dirb
-  
+## Installation
+```
+git clone https://github.com/coelhino/c03lh1n0.git
+```
+```
+cd NexSysHub
+```
+## Usage
+```
+python c03lh1n0.py http://example.com
+```
 ### Python Libraries:
 Install the necessary Python packages using `pip`:
 ```bash
