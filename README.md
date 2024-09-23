@@ -1,2 +1,36 @@
-# c03lh1n0
-c03lh1n0 - Automated WebApp Pentesting Tool ⚡  c03lhi1n0 automates web application pentesting using common tools like Nmap, Nikto, SQLMap, OWASP Zap, and Dirb. It generates a comprehensive .docx report categorized by vulnerability severity. Ideal for security professionals who want fast, organized, and automated results.  #security #pentesting 
+# c03lh1n0 - Automated WebApp Pentesting
+
+## Overview
+c03lh1n0 is a powerful command-line interface (CLI) tool designed to automate the most common penetration testing tasks for web applications. It combines multiple industry-standard tools (Nmap, Nikto, SQLMap, OWASP Zap, Dirb) to scan a web application, extract vulnerabilities, and generate a `.docx` report with results organized by severity.
+
+### Key Features:
+- **Automated Scanning**: Run multiple web app pentesting tools like Nmap, Nikto, SQLMap, OWASP Zap, and Dirb with a single command.
+- **Multi-threading**: Scans run in parallel for faster results.
+- **Interactive CLI**: Choose specific tools to run or scan using all tools.
+- **Comprehensive Reporting**: Generates a `.docx` report organized by severity levels (High, Medium, Low).
+- **ANSI Art Banner**: Displays a NexSysHub banner at startup.
+  
+### Tools Used:
+1. **Nmap**: Network mapping and service version detection.
+2. **Nikto**: Web server vulnerability scanner.
+3. **SQLMap**: SQL injection vulnerability scanner.
+4. **OWASP Zap**: Automated web app vulnerability scanner.
+5. **Dirb**: Directory brute-forcing.
+
+---
+
+## Requirements
+### Software:
+- Python 3.x
+- Unix-based OS (Linux or Mac recommended) or Windows Subsystem for Linux (WSL).
+- Installed versions of the pentesting tools:
+  - Nmap
+  - Nikto
+  - SQLMap
+  - OWASP Zap
+  - Dirb
+  
+### Python Libraries:
+Install the necessary Python packages using `pip`:
+```bash
+pip install python-docx art
