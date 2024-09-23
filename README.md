@@ -34,7 +34,7 @@ c03lh1n0 is a powerful command-line interface (CLI) tool designed to automate th
 git clone https://github.com/coelhino/c03lh1n0.git
 ```
 ```
-cd NexSysHub
+cd c03lh1n0
 ```
 ## Usage
 ```
